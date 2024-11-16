@@ -1,0 +1,89 @@
+h1 {
+    text-align: center;
+    color: rgb(250, 250, 250);
+}
+
+html,
+body {
+    color: rgb(250, 250, 250);
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.input {
+    height: 30px;
+    padding: 20px 200px;
+    border: none;
+    text-align: right;
+    color: rgb(250, 4, 4);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.button {
+    font-size: 25px;
+    height: 75px;
+    width: 75px;
+    background-color: #1c1c1c;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+#bt1 {
+    color: black;
+    background-color: #d4d4d2;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+#bt2 {
+    background-color: #ff9500;
+    color: white;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#zero {
+    text-align: left;
+    height: 75px;
+    width: 75px;
+    width: 151px;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

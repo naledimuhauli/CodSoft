@@ -1,0 +1,42 @@
+ body .container{
+    font-family:"Poppins", sans-serif;
+  }
+  h1,h2,h3,h4,p{
+    text-align: center;
+  }
+  nav {
+    padding: 20px 0;
+  }
+  
+  nav li{
+    display: inline;
+    line-height: 42px;
+    margin-left: 15px;
+  }
+  
+  nav a{
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+  }
+
+  .contact-link{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+  }
+  .hero{
+    background-color: rgb(247, 247, 252);
+    padding: 160px, 20px;
+  }
+
+  .featured{
+    font-size: 20px;
+    margin: 10px 30px;
+    color: rgb(82, 76, 76);
+  }
+  .about-container{
+    margin: 10px, 40px;
+    padding: 50px;
+  }
