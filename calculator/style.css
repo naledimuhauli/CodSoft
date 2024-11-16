@@ -13,10 +13,10 @@ body {
 
 .input {
     height: 30px;
-    padding: 20px 200px;
+    padding: 20px 0px;
     border: none;
     text-align: right;
-    color: rgb(250, 4, 4);
+    color: rgb(8, 8, 8);
     font-size: 30px;
     font-weight: 600;
 }
