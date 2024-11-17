@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1,
+h2,
+h3 {
+    color: #030303;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Header Styles */
+.header {
+    background: #007BFF;
+    color: #fff;
+    padding: 20px 0 100px 0;
+    text-align: center;
+    background-image: url(banner.jpg);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #ffd700;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.primary-btn {
+    background: #ffd700;
+    color: #333;
+    font-weight: bold;
+}
+
+.secondary-btn {
+    background: #fff;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Features Section */
+.features-section {
+    padding: 50px 0;
+    background: #f4f4f4;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.feature {
+    text-align: center;
+    border: 1px solid #f4f4f4;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(37, 37, 37, 0.5);
+    border-radius: 10px;
+}
+
+.feature i {
+    font-size: 3rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 0;
+    background: #dfdfdf;
+
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 4px 15px rgba(29, 34, 105, 0.5);
+}
+
+.about-content img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text p {
+    margin: 20px 0;
+}
+
+
+
+
+/* Footer Styles */
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links li a {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.social-links li a:hover {
+    color: #ffd700;
+}
